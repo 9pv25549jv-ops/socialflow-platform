@@ -5,7 +5,7 @@ import "./globals.css";
 
 export default function Home() {
 const [showCreatePost, setShowCreatePost] = useState(false);
-const [postText, setPostText] = useState(””);
+const [postText, setPostText] = useState("");
 
 const publishPost = () => {
 if (!postText.trim()) return;
