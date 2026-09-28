@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from “react”;
-import “./globals.css”;
+import { useState } from "react";
+import "./globals.css";
 
 export default function Home() {
 const [showCreatePost, setShowCreatePost] = useState(false);
