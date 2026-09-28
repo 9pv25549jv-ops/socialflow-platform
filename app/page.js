@@ -17,7 +17,6 @@ setShowCreatePost(false);
 };
 
 return (
-{/* SIDEBAR */}
 Social Flow
 
     <nav>
@@ -29,7 +28,6 @@ Social Flow
       <a>Settings</a>
     </nav>
   </aside>
-  {/* MAIN CONTENT */}
   <section className="content">
     <header className="topbar">
       <div>
@@ -43,7 +41,6 @@ Social Flow
         + Create Post
       </button>
     </header>
-    {/* STATS */}
     <div className="stats">
       <div className="card">
         <span>Total Posts</span>
@@ -62,13 +59,10 @@ Social Flow
         <strong>42.5K</strong>
       </div>
     </div>
-    {/* RECENT POSTS */}
     <div className="section">
       <div className="section-header">
         <h2>Recent Posts</h2>
-        <button>
-          View all
-        </button>
+        <button>View all</button>
       </div>
       <div className="posts">
         <div className="post">
@@ -95,7 +89,6 @@ Social Flow
       </div>
     </div>
   </section>
-  {/* CREATE POST MODAL */}
   {showCreatePost && (
     <div
       className="modal-overlay"
